@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*text-align: center;*/
+    background-color: rgb(230, 25, 25);
+    width: 50rem;
+    height: 40rem;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+div{
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    margin: 15px;
+}
+
+
+input{
+    border-radius: 20px;
+}
+
+
+.img-poke{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #cccccc;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.descripcion{
+   width: 80%;
+   margin: auto;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    main {
+      background-color: blue;
+      color: white;
+      width: 100%;
+      width: 100%;
+    }
+  }
+
+/*@media (min-width: 350px) {
+    
+    main {
+      width: 100%;
+      height: 100%;
+    }
+}
