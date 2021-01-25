@@ -1,0 +1,131 @@
+body{
+    background-image: url(fondo.jpg);
+    background-size: 800px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(230, 25, 25);
+    width: 50rem;
+    height: 95rem;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+div{
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    margin: 15px;
+}
+
+
+input{
+    border-radius: 20px;
+    width: 100px;
+}
+
+
+.img-poke{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #554d4d;
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.medio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.grafo{
+    width: 670px;
+    height: 99500px;
+    
+}
+
+.pokemon{
+    width: 350px;
+    height: 350px;
+    margin: 40px auto;
+    display: inline-block;
+}
+
+.bloques{
+    display: flex;}
+
+.datitos1{
+    display: flex;
+    flex-direction: row;
+}
+
+.datitos2{
+    display: flex;
+    flex-direction: row;
+}
+
+.RadarJS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: seashell;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .medio{
+        display: flex;
+        flex-direction: column;}    
+    
+    main {
+      background-color: blue;
+      color: white;
+      width: 100%;
+      height: 100%;
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+    }
+ 
+   
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .bloques{
+        display: flex;
+        flex-direction: column;
+    }
+  
+
+/*@media (min-width: 350px) {
+    
+    main {
+      width: 100%;
+      height: 100%;
+    }
+}
